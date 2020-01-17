@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html>
+
+<title>SPECIAL</title>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="css/lover.css">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Mali', cursive;
+  }
+
+  .w3-bar-block .w3-bar-item {
+    padding: 20px
+  }
+
+  * {
+    box-sizing: border-box
+  }
+
+  body {
+    font-family: 'Mali', cursive;
+    ;
+    margin: 0
+  }
+
+  .mySlides {
+    display: none
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: #1E5A88;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+
+
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active,
+  .dot:hover {
+    background-color: #1E5A88;
+  }
+
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from {
+      opacity: .4
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  @keyframes fade {
+    from {
+      opacity: .4
+    }
+
+    to {
+      opacity: 1
+    }
+  }
+
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+
+    .prev,
+    .next,
+    .text {
+      font-size: 11px
+    }
+  }
+</style>
+
+<body>
+
+  <!-- Sidebar (hidden by default) -->
+  <nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left"
+    style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button"
+      style="font-family: 'Amatic SC', cursive;font-size: 35px;">Close Menu</a>
+    <a href="#IandYou" onclick="w3_close()" class="w3-bar-item w3-button"
+      style="font-family: 'Amatic SC', cursive;font-size: 35px;">I and You</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button"
+      style="font-family: 'Amatic SC', cursive;font-size: 35px;">About Us</a>
+  </nav>
+
+  <!-- Top menu -->
+  <div class="w3-top">
+    <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+      <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+      <div class="w3-center w3-padding-16" style="font-family: 'Amatic SC', cursive;-webkit-text-stroke-width: thin;">
+        Happy Everything</div>
+    </div>
+  </div>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+
+    <!-- First Photo Grid-->
+    <div class="slideshow-container">
+
+      <!-- First Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center" id="IandYou">
+          <div class="w3-quarter">
+            <img src="image/1.jpg" alt="1" style="width:100%">
+            <h3>เดทแรกของเรา</h3>
+            <p>@ฟิวเจอร์ปาร์ครังสิต</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/2.jpg" alt="2" style="width:100%">
+            <h3>ทริปหนีปลาบึก</h3>
+            <p>@อุทยานราชภักดิ์ อ.หัวหิน จ.ประจวบคีรีขันธ์
+          </div>
+          <div class="w3-quarter">
+            <img src="image/3.jpg" alt="3" style="width:100%">
+            <h3>อากาศร้อนแต่มีหวาน(ใจ)เย็นใกล้ ๆ ตัว</h3>
+            <p>@อุทยานราชภักดิ์ จังหวัดประจวบคีรีขันธ์</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/4.jpg" alt="4" style="width:100%">
+            <h3>พรีถ่ายรูป</h3>
+            <p>@นนทบุรี</p>
+          </div>
+        </div>
+
+
+        <!-- First Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/5.jpg" alt="5" style="width:100%">
+            <h3>หาอะไรกินแต่ไม่มีอะไรให้กิน</h3>
+            <p>@เจพาร์ค ศรีราชา</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/6.jpg" alt="6" style="width:100%">
+            <h3>ทริปติดตั้งโปรแกรมมั่วกลัวไวรัส</h3>
+            <p>@ดินแดนหิ่งห้อย จังหวัดปราจีนบุรี</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/7.jpg" alt="7" style="width:100%">
+            <h3>จังหวัดน่านอยู่ที่เหนือ ชีวิตที่เหลืออยู่กับเธอ</h3>
+            <p>@วัดศรีมงคล-ก๋ง จังหวัดน่าน</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/8.jpg" alt="8" style="width:100%">
+            <h3>คนเก่งจบแล้ว</h3>
+            <p>@มหาวิทยาลัยบูรพา</p>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Second Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/9.jpg" alt="9" style="width:100%">
+            <h3>ไปเที่ยวไหนดี</h3>
+            <p>@อุทยานแห่งชาติเจ็ดสาวน้อย จังหวัดสระบุรี</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/10.jpg" alt="10" style="width:100%">
+            <h3>บางแสนไม่มีข้าวกิน ต้องมานั่งกินไกลขนาดนี้ 5555</h3>
+            <p>@ร้านใบมาก ศรีราชา</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/a.jpg" alt="11" style="width:100%">
+            <h3>ปะ ไปใต้กัน</h3>
+            <p>@เขื่อนรัชชประภา จังหวัดสุราษฎร์ธานี ไปช่วงที่มีพายุปาบึกด้วยนะ เฮฮาเลย</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/g.jpg" alt="12" style="width:100%">
+            <h3>เที่ยวไปเรื่อย</h3>
+            <p>@ทุ่งบัวแดง จังหวัดอยุธยา</p>
+          </div>
+        </div>
+
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/33.jpg" alt="33" style="width:100%">
+            <h3>ปะ ทำบุญกัน</h3>
+            <p>@เขาคิชกูฎ จังหวัดจันทบุรี ถึงห้องหลับเป็นตาย เป็นการเดินข้ามคืนที่ง่วงมาก</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/20.jpg" alt="20" style="width:100%">
+            <h3>วัดปิดก็ไหว้ข้างนอกแทน</h3>
+            <p>@วัดโสธร จังหวัดฉะเชิงเทรา ทำบุญหลังจากรับปริญญาพี่ต้น</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/36.jpg" alt="36" style="width:100%">
+            <h3>ปีนขึ้นมาเหนื่อยมั้ย</h3>
+            <p>@ภาพ3มิติ Paradise พัทยา</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/21.jpg" alt="21" style="width:100%">
+            <h3>มีเด็กสองคนอยากเล่นของเล่น</h3>
+            <p>@ดรีมเวิลด์ ครั้งหน้าต้องได้เล่นรถไฟเหาะนะ</p>
+          </div>
+        </div>
+
+        <!-- Second Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/19.jpg" alt="19" style="width:100%">
+            <h3>หนีตามแม่กาละเกด</h3>
+            <p>@วัดใหญ่ชัยมงคล จังหวัดอยุธยา</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/34.jpg" alt="34" style="width:100%">
+            <h3>เที่ยวใกล้ ๆ ก็เป็นจ้ะ</h3>
+            <p>@พุทธมหาเจดีย์ จังหวัดปทุมธานี</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/18.jpg" alt="18" style="width:100%">
+            <h3>ลอยกระทงด้วยกันครั้งแรก</h3>
+            <p>@หอพักกอล์ฟวิวล์ มีคนบอกว่าจะไม่ลอยสุดท้ายก็ได้ลอย</p>
+          </div>
+          
+          <div class="w3-quarter">
+            <img src="image/37.jpg" alt="37" style="width:100%">
+            <h3>ครบรอบไตรมาสที่ 3</h3>
+            <p>@หอพักกอล์ฟวิวล์ </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- three Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/143.jpg" alt="143" style="width:100%">
+            <h3>เครื่องบินที่จะพาเราไปเวียดนามมมมมม</h3>
+            <p>@ท่าอากาศดอนเมือง-ท่าอากาศยานเตินเซินเญิ้ต</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/142.jpg" alt="142" style="width:100%">
+            <h3>ไปต่างประเทศด้วยกันครั้งแรก</h3>
+            <p>@ท่าอากาศดอนเมือง-ท่าอากาศยานเตินเซินเญิ้ต</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/144.jpg" alt="144" style="width:100%">
+            <h3>เดินทางด้วยรถนอน</h3>
+            <p>@ท่าอากาศยานเตินเซินเญิ้ต-ดาลัด</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/1411.jpg" alt="1411" style="width:100%">
+            <h3>ถึงที่พักแล้ววววว เราสองคนไม่นอนข้างทาง</h3>
+            <p>@ที่พัก ณ ดาลัด</p>
+          </div>
+        </div>
+
+        <!-- three Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/dalat.jpg" alt="dalat" style="width:100%">
+            <h3>อากาศหนาวมากกกกกกก มะหวายแล้ววว</h3>
+            <p>@ดาลัด เวียดนาม</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/132.jpg" alt="132" style="width:100%">
+            <h3>อาหารมื้อแรกก่อนออกเดินทางเที่ยว</h3>
+            <p>@ร้านอาหารข้างทาง จัดก๋วยเตี๋ยวเนื้อคนละชาม อร่อยเหาะอย่าบอกใคร</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/131.jpg" alt="131" style="width:100%">
+            <h3>ที่เที่ยวที่แรก</h3>
+            <p>@Garden hydrangeas ตื่นเต้นน</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/133.jpg" alt="133" style="width:100%">
+            <h3>ที่เที่ยวที่สอง</h3>
+            <p>@Tiệm Bánh Cối Xay Gió มีคนติดใจขนมที่นี่ซะแล้ว</p>
+          </div>
+        </div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/15.jpg" alt="15" style="width:100%">
+            <h3>ที่เที่ยวที่สาม</h3>
+            <p>@Datanla Waterfall เรานั่งรถคันนี้ลงไปน้ำตก สุดยอด</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/12.jpg" alt="12" style="width:100%">
+            <h3>ที่เที่ยวที่สี่</h3>
+            <p>@Datanla Waterfall ถึงน้ำตกแล้วววววว</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/11.jpg" alt="11" style="width:100%">
+            <h3>ที่เที่ยวที่ห้า</h3>
+            <p>@Trúc Lâm Phụng Hoàng Zen Monastery ไม่รู้ควรยืนไหว้หรือนั่งไหว้ดี</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/22.jpg" alt="22" style="width:100%">
+            <h3>ที่เที่ยวที่หก</h3>
+            <p>@Crazy House เดินวนบ้านสูงก็สูง หนาวก็หนาว เสียวก็เสียว</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/231.jpg" alt="231" style="width:100%">
+            <h3>ตบท้ายด้วยหม้อไฟ มื้อเย็นก่อนกลับที่พักนอน</h3>
+            <p>@Dalat Night Market</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- four Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/muine.jpg" alt="muine" style="width:100%">
+            <h3>อากาศที่นี่ร้อนแตกต่างจากดาลัดเฟ่อ</h3>
+            <p>@มุยเน่ เวียดนาม</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/161.jpg" alt="161" style="width:100%">
+            <h3>อาหารมื้อเช้าก่อนเดินทางเที่ยว</h3>
+            <p>@ร้านอาหาร ณ ที่พัก อาหารอร่อย</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/16.jpg" alt="16" style="width:100%">
+            <h3>คนอยากเสียเงินนั่งรถขึ้นทะเลทราย & คนประหยัดงบ</h3>
+            <p>@White Sand Dunes คนประหยัดงบชนะจ้ะ สรุปเดินขึ้นแต่คุ้มกว่านั่งรถราคาเป็นพันเป็นไหน ๆ แม้จะเดินไม่ถึงยอดสุดของทะเลทราย</p>
+          </div>
+          <!--
+          <div class="w3-quarter" style="align-items: center;">
+              <video width="300" height="240" controls autoplay>
+                  <source src="image/movie.mp4" type="video/mp4">
+                  <source src="image/movie.ogg" type="video/ogg">
+              </video>
+            <h3>xx</h3>
+            <p>@xx</p>
+          </div>
+          -->
+          <div class="w3-quarter">
+            <img src="image/162.jpg" alt="162" style="width:100%">
+            <h3>ทะเลทรายขาว เหมือนคนไม่เคยเห็นทะเลทราย</h3>
+            <p>@White Sand Dunes แค่มาเตะ ๆ ทรายเล่นแล้วกลับเพราะมีคนงอแงขี่รถเหนื่อย</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- five Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/24.jpg" alt="24" style="width:100%">
+            <h3>รถนอนเตรียมพร้อมไปโฮจิมินห์ เย้ ๆ</h3>
+            <p>@มุยเน่-โฮจิมินห์</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/25.jpg" alt="25" style="width:100%">
+            <h3>มีเด็กถือกระเป๋าส่วนตัวนะค้าาา</h3>
+            <p>@โฮจิมินห์ซิตี้ เด็กถือกระเป๋าถือใบเดียว แต่อีกคนคือสองใบจ้ะ เต็มตัวมากเวอร์</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/26.jpg" alt="26" style="width:100%">
+            <h3>First time to use Grabcar</h3>
+            <p>@โฮจิมินห์ซิตี้ ยืนรอเป็นชั่วโมง สรุปเดินจ้ะ ทริปแห่งการเดินจริง ๆ First time ของจริงคือตอนไปตลาดเบญถั่นด้วยมอเตอร์ไซค์ที่คุยกันไม่รู้เรื่องแต่นั้นก็ยังไม่ใช่แบบ Grabcar</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/27.jpg" alt="27" style="width:100%">
+            <h3>ที่เที่ยวที่แรก</h3>
+            <p>@Ben Thanh Market สถานที่แห่งการต่อราคา ต่อแล้วยังเจอราคาที่ถูกกว่าอีก</p>
+          </div>
+        </div>
+
+        <!-- five Photo Grid-->
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/172.jpg" alt="172" style="width:100%">
+            <h3>ที่เที่ยวที่สอง</h3>
+            <p>@The Cafe Apartment on Saigon’s Walking Street Vietnam แสงเริ่มน้อยแต่ใจยังอยากเที่ยวอยู่</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/281.jpg" alt="281" style="width:100%">
+            <h3>รูปปั้นลุงโฮ (โฮจิมินห์)</h3>
+            <p>@โฮจิมินห์ซิตี้ ถ้าพี่ต้นไม่พาเดินข้างในก็คงไม่ได้เห็นว่ามีตรงนี้ด้วยนี่นา</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/171.jpg" alt="171" style="width:100%">
+            <h3>ตึกสวยมาก ตระการขั้นสุด</h3>
+            <p>@โฮจิมินห์ซิตี้ อะไร ที่ไหน เมื่อไหร่ก็ได้แค่มีพี่ต้น</p>
+          </div>
+          <div class="w3-quarter">
+            <video style="height: auto;width: 100%;" autoplay>
+              <source src="image/video3.mp4" type="video/mp4">
+              <source src="image/video3.ogg" type="video/ogg">
+            </video>
+            <h3>คนประหยัดงบ สุดท้ายเหลือ 1,000,000.000 VND</h3>
+            <p>@Shop เพิ่มพลังด้วยมาม่าเพื่อเดินกลับที่พักอันแสนไกล</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- six Photo Grid-->
+      <div class="mySlides fade">
+        <div class="numbertext">6 / 6</div>
+        <div class="w3-row-padding w3-padding-16 w3-center">
+          <div class="w3-quarter">
+            <img src="image/30.jpg" alt="30" style="width:100%">
+            <h3>ที่เที่ยวที่ตกค้างจากวันแรก</h3>
+            <p>@Saigon Central Post Office สถานที่แห่งราคาที่ถูกกว่าตลาด
+              เกือบเจ็บใจละดีนะได้ราคาใกล้เคียงกับราคาที่เกือบถูก</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/31.jpg" alt="31" style="width:100%">
+            <h3>อาหารมื้อเช้ารวบเที่ยง</h3>
+            <p>@โฮจิมินห์ซิตี้ มาม่าที่ยังลวกไม่ได้ที่ แข็งกว่าหัวพี่ต้น</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/32.jpg" alt="32" style="width:100%">
+            <h3>รอรถเมล์หมายเลข 152 ไปสนามบินเตินเซินเญิ้ต</h3>
+            <p>@Go to Ho chi minh Airport</p>
+          </div>
+          <div class="w3-quarter">
+            <img src="image/35.jpg" alt="35" style="width:100%">
+            <h3>อาหารสำหรับมื้อเย็นของวันกลับประเทศไทย</h3>
+            <p>@Ho chi minh Airport อาหารคนละชุดละ 400 กว่าบาท (แม่เจ้าฉันกลัวอาหารสนามบินไปเลย5555)</p>
+          </div>
+          <div class="text">
+            <h3>Everywhere with P'TON</h3>
+            <p>นี่แค่ส่วนนึง ส่วนเล็ก ๆ ที่สำคัญทุกส่วน</p>
+            <p>ยังมีอีกหลายที่ ยังมีมุมอีกหลายมุม ยังมีอะไรให้เราได้เจอด้วยกันอีกเยอะ</p>
+            <p>อยู่กับหนูนาน ๆ นะ เยิฟ</p>
+          </div>
+        </div>
+      </div>
+
+
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  </div>
+  <br>
+
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+  </div>
+
+
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">
+    <h3 style="font-family: 'Amatic SC';-webkit-text-stroke-width: thin;font-size: 35px;" , cursive>About Us</h3><br>
+    <img src="image/love.jpg" alt="Me" class="w3-image" style="display:block;margin:auto" width="400" height="200">
+    <div class="w3-padding-32">
+      <h4 style="font-family: 'Amatic SC', cursive"><b>Anniversary 1 year</b></h4>
+      <h6 style="font-family: 'Amatic SC', cursive"><i>so happy when I have you</i></h6>
+      <p>จากที่ไม่เคยคิดว่าจะไปด้วยกันได้ กลายเป็นตอนนี้เราคบกัน 1 ปีแล้ว</p>
+      <p>จากนายกสโมฯและน้อง 1 ในสมาชิกสโมสรนิสิตในวันนั้น กลายมาเป็นแฟนกันในวันนี้</p>
+      <p>แปลว่าที่หนูไปดูดวงมาแม่นมาก เพราะเขาบอกว่าจะเจอกับคนที่ไม่คาดคิด ไม่คิดจริง ๆ 555</p>
+      <p>และจุดเริ่มต้นของเราจนถึงวันนี้ก็คงเป็นเพราะตอนที่พี่ต้นมายืมชีทหนู (ทั้งที่มีน้องภาคไฟที่รู้จักตั้งเยอะอิอิ) เราเลยได้คุยกันอีกครั้ง</p>
+      <p>เพราะโปรเจคลอร่าด้วย ก็นะตามสไตล์พี่ 5555555</p>
+      <br>
+      <p>ครบรอบ 1 ปีที่คบกัน หนูก็ไม่มีอะไรจะให้นอกจากหัวใจดวงน้อย ๆ ของหนูที่ยกให้พี่ต้น</p>
+      <p>ตลอดเวลาที่ผ่านมาที่หนูคบกับพี่ต้น หนูมีความสุขมว๊าก ๆ
+        ถึงเราจะทะเลาะกันบ่อยแต่หนูรักพี่ต้นมากกว่าตอนเราทะเลาะกันอีกนะ</p>
+      <p>หนูอาจจะชอบดื้อ ชอบขี้งอน ชอบเอาแต่ใจ แต่หนูก็ชอบพี่ต้นนะ (ยกเว้นตอนโมโห อยากจะทุ่มลงพื้น)</p>
+      <p>ถ้าไม่มีพี่ต้นในวันนั้น หนูก็ไม่รู้ว่าตอนนี้หนูจะอยู่ตรงไหนทำอะไรอยู่ แต่ตอนนี้หนูรู้แล้ว...</p>
+      <p>...รู้ว่าหนูอยากมีพี่ต้นในทุก ๆ วันเลย</p>
+      <br>
+      <p>ขอบคุณที่ยังเป็นพี่ต้นที่น่ารัก แม้บางทีจะชอบเมินหนู ไม่สนใจที่หนูพูด เอาแต่เล่นโทรศัพท์
+        ชอบมาหะทีหลัง(อย่าให้หนูเมินบ้าง ให้นึกถึงตอนคุยกันแรก ๆ ก่อนคบได้เลย)</p>
+      <p>อย่าโมโห อย่าหงุดหงิดหนูให้มาก ถ้าหนูทำคืนแล้วจะเอาน้องมนที่น่ารักคนเดิมกลับมายาก</p>
+      <p>อยู่ดูแลหนูให้ดี ๆ เหมือนตอนอยากได้มานาน ๆ นะคะ จุ้บ</p>
+      <p>แฮปปี้เบิร์ธเดย์ล่วงหน้าด้วยนะคะ *25 Jan 2020*</p>
+      <p>รักพี่ต้นนะคะ จุ้บ ๆ</p>
+    </div>
+  </div>
+
+  <script>
+    // Script to open and close sidebar
+    function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+    }
+
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+  </script>
+
+  <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      if (n > slides.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = slides.length }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+    }
+  </script>
+
+</body>
+
+</html>

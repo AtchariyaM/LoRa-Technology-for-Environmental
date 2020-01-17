@@ -1,0 +1,74 @@
+.container{
+    position: relative;
+    background-color:#F8F2E4;
+}
+
+
+.login{
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    margin-bottom: 4rem;
+    margin-top: 45px;
+    height: 450px;
+    width: 350px;
+    line-height: 70px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: 'Amatic SC', cursive;
+    font-size: x-large;
+    padding: 20px;
+    border-radius: 45px;
+    -webkit-text-stroke-width: thin;
+    background: url("softL.png");
+    background-size:100% 100%;
+}
+
+
+
+.input1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #9B795E;
+    display: block;
+    width: 80%;
+    height: 40px;
+    border-radius: 25px;
+    position: relative;
+    background: #FFEFD5;
+    padding: 0 30px 10 68px;
+    margin: auto;
+    outline: none;
+    border: none;
+  
+
+}
+
+
+
+.butt {
+    background-color: #F38CB1;
+    border: white;
+    color: #000000;
+    padding: 5px 25px;
+    width: 80%;
+    border-radius: 25px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 26px;
+    cursor: none;
+    font-family: 'Amatic SC', cursive;
+    -webkit-text-stroke-width: medium;
+    outline: none;
+    box-shadow: 0 5px #999;
+  }
+  .butt:hover {
+    background-color: #0e0d0d7c;
+    color: rgb(243, 63, 129);
+  }
+  .butt:active {
+    box-shadow: 0 2px #999;
+    transform: translateY(3px);
+  }
